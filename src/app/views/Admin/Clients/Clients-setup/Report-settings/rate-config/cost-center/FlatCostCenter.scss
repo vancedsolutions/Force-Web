@@ -1,0 +1,40 @@
+.lines_wrpr {
+  //   background-color: red;
+  margin-top: 30px;
+
+  .line_wrpr {
+    height: 26px;
+    border: 1px solid #bdbdbd;
+    border-top-width: 0px;
+
+    &:nth-child(1) {
+      border-top-width: 1px;
+    }
+
+    .sec {
+      width: calc(100% / 4);
+      padding: 0px 10px;
+      height: 100%;
+      line-height: 26px;
+
+      &:nth-child(2) {
+        border: 1px solid #bdbdbd;
+        border-width: 0px 0px 0px 1px;
+      }
+
+      &:nth-child(3) {
+        border: 1px solid #bdbdbd;
+        border-width: 0px 1px;
+      }
+
+      &.wpdis {
+        // background-color: red;
+
+        input[type="text"] {
+          width: 44px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+@import "../../../../colors.scss";
+
+.cost_center_select {
+  margin-bottom: 40px;
+
+  .css-2b097c-container {
+    margin-bottom: 20px;
+    max-width: 310px;
+  }
+
+  .css-2b097c-container {
+    margin-top: 10px;
+  }
+}
+
+.padd-20 {
+  padding: 20px;
+}
+
+.clients_list {
+  margin-top: 20px;
+}
+
+.location-cost.rate_setup_page .rates_list .list .rate_line {
+  height: 80px;
+  padding: 10px 10px;
+}
+
+.location-cost.rate_setup_page .rates_list .list .rate_line .sec {
+  height: 70px;
+}
+
+.costcenter-list-height {
+  height: calc(100% - 0px);
+  overflow: auto;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clients_grid .df.line {
+  height: 41px;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: 1px solid rgba(27, 39, 49, 0.1);
+  color: #1b2731;
+}
+
+.__checkbox .lbl {
+  position: relative;
+}
+
+.reportBtn {
+  padding: 10px 20px;
+  background-color: #47e5eb;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #001374;
+    color: #fff !important;
+  }
+}
+
+.cost_center_outer {
+  .cost_flex_box {
+    flex: 1;
+    margin-right: 30px;
+  }
+}
+
+.report_ids_wrpr {
+  margin-top: 30px;
+
+  .input_line.ssD_fiels {
+    width: calc(100% - 90px);
+
+    input#rprt_inpt {
+      width: 100%;
+      padding: 10px 10px;
+      font-size: 12px;
+    }
+  }
+}
+.over_scroll {
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}

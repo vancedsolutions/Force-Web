@@ -1,0 +1,184 @@
+[
+    {
+        "label": "Management Overview",
+        "key": "MANAGEMENT_OVERVIEW",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "Annual Billing",
+        "key": "ANNUAL_BILLING",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "No Payroll Activity",
+        "key": "NO_PAYROLL_ACTIVITY",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "Logs",
+        "key": "LOGS",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "Late Payroll",
+        "key": "LATE_PAYROLL",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "Billing Discrepancy",
+        "key": "BILLING_DISCREPANCY",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "CSR Assignments",
+        "key": "CSR_ASSIGNMENT",
+        "group": "REPORTS",
+        "groupLabel": "Admin Reports",
+        "portal": "Admin"
+    },
+    {
+        "label": "Certified Payroll",
+        "key": "CERTIFIED_PAYROLL",
+        "group": "REPORTS",
+        "groupLabel": "Reports",
+        "portal": "Client"
+    },
+    {
+        "label": "Employees Accruals",
+        "key": "EMPLOYEES_ACCRUALS",
+        "group": "REPORTS",
+        "groupLabel": "Reports",
+        "portal": "Client"
+    },
+    {
+        "label": "Patient Hours",
+        "key": "PATIENT_HOURS",
+        "group": "REPORTS",
+        "groupLabel": "Reports",
+        "portal": "Client"
+    },
+    {
+        "label": "Wage Parity",
+        "key": "WAGE_PARITY",
+        "group": "REPORTS",
+        "groupLabel": "Reports",
+        "portal": "Client"
+    },
+    {
+        "label": "Login as sa",
+        "key": "LOGIN_SA",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Admin rbac access",
+        "key": "ADMIN_RBAC_ACCESS",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Wage Rates",
+        "key": "WAGE_RATES",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Edit Settings/Permission",
+        "key": "EDIT_SETTING_OR_PERMISSION",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Client List",
+        "key": "CLIENT_LIST",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Users List",
+        "key": "USERS_LIST",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Time Inventory",
+        "key": "TIME_INVENTORY",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "New Hire Upload",
+        "key": "NEW_HIRE",
+        "group": "FILE_CONVERSION",
+        "groupLabel": "File Conversions",
+        "portal": "Admin"
+    },
+    {
+        "label": "Tax Collections",
+        "key": "TAX_COLLECTION",
+        "group": "FILE_CONVERSION",
+        "groupLabel": "File Conversions",
+        "portal": "Admin"
+    },
+    {
+        "label": "Tax Payments",
+        "key": "TAX_PAYMENTS",
+        "group": "FILE_CONVERSION",
+        "groupLabel": "File Conversions",
+        "portal": "Admin"
+    },
+    {
+        "label": "Bank Upload",
+        "key": "BANK_UPLOAD",
+        "group": "FILE_CONVERSION",
+        "groupLabel": "File Conversions",
+        "portal": "Admin"
+    },
+    {
+        "label": "Spread of Hours Tool",
+        "key": "SPREAD_OF_HOURS_TOOL",
+        "group": "FILE_CONVERSION",
+        "groupLabel": "File Conversions",
+        "portal": "Client"
+    },
+    {
+        "label": "Direct Deposit Upload",
+        "key": "DIRECT_DEPOSIT_TOOL",
+        "group": "FILE_CONVERSION",
+        "groupLabel": "File Conversions",
+        "portal": "Client"
+    },
+    {
+        "label": "Team Support",
+        "key": "TEAM_SUPPORT",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    },
+    {
+        "label": "Email Setup",
+        "key": "EMAIL_SETUP",
+        "group": "ADMIN_SETUP",
+        "groupLabel": "Admin Setup",
+        "portal": "Admin"
+    }
+]

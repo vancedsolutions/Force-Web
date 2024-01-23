@@ -1,0 +1,51 @@
+.management-overview {
+    .table_wrpr_management {
+        background-color: #fff;
+        /* border       : 1px solid #ddd; */
+        border-radius   : 6px 6px 0 0;
+        overflow        : hidden;
+        flex-wrap       : wrap;
+        display         : flex;
+
+
+        .w75 {
+            width        : 15.4%;
+            display      : inline-block;
+            margin-bottom: 1.5%;
+            margin-right : 1.5%;
+            border       : 1px solid #ddd;
+            border-radius: 7px;
+            overflow     : hidden;
+
+            .w75_inner {
+                border-left: 5px solid #001374;
+                padding    : 16px 12px;
+                .fl {
+                    color: #696969;
+                    font-size: 14px;
+                    margin-bottom: 3px;
+                }
+                .fr {
+                    font-weight: 600;
+                    color: #565656;
+                }
+            }
+        }
+
+        .w75:nth-child(1n+1) {
+            margin-left: 0;
+        }
+
+        .w75:nth-child(6n+6) {
+            margin-right: 0;
+        }
+    }
+    .filter-list {
+        .filter_inpt_sec {
+            margin-right: 20px;
+            .label {
+                margin-right: 8px;
+            }
+        }
+    }
+}

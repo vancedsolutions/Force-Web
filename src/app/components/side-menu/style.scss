@@ -1,0 +1,187 @@
+.left-sidebar {
+    background    : #ffffff;
+    width         : 246px;
+    // height     : calc(100vh - 80px);
+    transition    : 0.4s;
+    overflow      : hidden;
+
+    &.hide-sidebar,
+    &.mobie-sidebar {
+        width: 70px;
+
+        .menu-label-text,
+        .mla,
+        .expand,
+        .subMenu {
+            display       : none;
+            // margin-left: -999px;
+        }
+
+        .menu-label {
+            justify-content: center;
+
+            .icon-svg {
+                margin: 0;
+            }
+        }
+
+    }
+
+    &.hide-sidebar.MouseOut {
+        .menu-label {
+            justify-content: center;
+
+            .icon-svg {
+                margin: 0;
+            }
+        }
+    }
+    &.hide-sidebar.MouseEnter {
+        .menu-label {
+            justify-content: left;
+
+            .icon-svg {
+                margin-right: 13px;
+            }
+        }
+    }
+
+    &.MouseEnter {
+
+        .menu-label-text,
+        .subMenu {
+            display       : block;
+            // margin-left: -999px;
+        }
+    }
+
+    .back_btn {
+        padding         : 10px 20px;
+        background-color: #46e6ec33;
+        display         : block;
+        width           : 100%;
+        border          : none;
+
+        .menu-label-text {
+            color      : #47E5EB;
+            margin-left: 10px;
+        }
+    }
+
+
+    ul {
+        li {
+            border       : none;
+            padding      : 0;
+            margin-bottom: 10px;
+
+            .subMenu {
+                margin-left  : 41px;
+                margin-bottom: 20px;
+
+                .menu-label {
+                    padding   : 3px 0;
+                    margin-top: 5px;
+                }
+
+                .active {
+                    .menu-label {
+                        color       : #F6C343;
+                        width       : 100%;
+                        border-right: 4px solid #F6C343;
+                    }
+                }
+            }
+
+            .menu-label {
+                color: #BBC5D5;
+            }
+
+            a {
+                display        : flex;
+                align-items    : center;
+                text-decoration: none;
+
+                .icon-svg {
+                    margin-right: 13px;
+
+                    svg {
+                        width: 13px;
+
+                        path,
+                        g {
+                            fill: #6f88a7;
+                        }
+                    }
+                }
+
+                .menu-label {
+                    color         : #353535;
+                    font-size     : 16px;
+                    white-space   : nowrap;
+                    transition    : 0.7s;
+                    text-transform: capitalize;
+                    flex          : 1 1;
+                    padding       : 11px 0px 14px 0px;
+                }
+
+                .expand {
+                    width              : 20px;
+                    height             : 20px;
+                    background-image   : url(../../assets/images/download.png);
+                    background-repeat  : no-repeat;
+                    background-position: 4px 6px;
+                    margin-right       : 5px;
+                    position           : absolute;
+                    right              : 0;
+                    top                : 12px;
+                    transition         : 0.4s;
+
+                    &.open {
+                        transform: rotateX(0deg);
+                    }
+                }
+            }
+
+
+            &.active {
+                a {
+                    .icon-svg {
+                        background   : #f5f5f5;
+                        border-radius: 0 30px 30px 0;
+                        display      : flex;
+
+                        svg {
+
+                            path,
+                            g {
+                                fill: #ff9b00;
+                            }
+                        }
+                    }
+
+                    .menu-label {
+                        color: #ff9b00;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.companyShortName {
+    font-size: 14px;
+    padding  : 7px 0;
+    display  : block;
+}
+
+.hide-sidebar {
+    .companyShortName {
+        display: none;
+    }
+}
+
+.left-sidebar.MouseEnter {
+    width: 246px;
+
+}

@@ -1,0 +1,61 @@
+.reportList {
+    .df.acsa.val {
+        margin-left: 10px;
+    }
+    p.api_val {
+        width: 300px;
+    }
+    .edit_btn, .save_btn {
+        height: 16px;
+        width: 16px;
+        margin-left: 8px;
+    }
+    p.edit_btn {
+        background-image: url("../../../../../assets//images/edit_btn_icon.png");
+    }
+    .save_btn {
+        background-image: url("../../../../../assets//images/save_btn.png");
+    }
+    .api_val {
+        width: calc(100% - 90px);
+        input[type="text"] {
+            width: 100%;
+            font-size: 14px;
+            height: 40px;
+            padding: 10px;
+        }
+    }
+    
+
+    .reportList .background-tasks {
+        .bg_task_wrpr {
+            margin-top: 20px;
+            .save_btn {
+                margin-right: 40px;
+                padding: 0px 8px 0 25px;
+                background-repeat: no-repeat;
+                background-position: 0px 4px;
+                height: 22px;
+            }
+        }
+       
+    }
+
+
+  
+    
+    
+
+}
+
+.reportList .background-tasks .save_btn {
+   margin-right: 40px;
+    padding: 0 15px 0 26px;
+    background-repeat: no-repeat;
+    height: 22px !important;
+    background-position: 0 4px;
+}
+.reportList > .MuiPaper-root {
+    border-bottom: 1px solid #ddd;
+}
+

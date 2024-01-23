@@ -1,0 +1,65 @@
+.BgLogin {
+    height: 100%;
+    background-image: url(../../assets/images/login_BG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+.adminLogin {
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    transform       : translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    padding         : 33px 50px;
+    max-width       : 410px;
+    box-shadow      : 0 0 50px 2px #efefef;
+    width           : 100%;
+
+    .imgcontainer {
+        text-align   : center;
+        margin-bottom: 40px;
+    }
+
+    .adminLoginForm {
+        label {
+            color      : #888888;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        .passErrror{
+            color: red;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .blu-text {
+            color: #47E5EB;
+        }
+
+        input[type="password"],
+        input[type="text"] {
+            width        : 100%;
+            padding      : 14px 20px;
+            line-height  : 14px;
+            font-size    : 14px;
+            color        : #444444;
+            border-radius: 8px;
+            border-color : #E0E0E0;
+        }
+
+        .submit-btm {
+            padding         : 13px 39px;
+            background-color: #47E5EB;
+            color           : #fff;
+            font-size       : 14px;
+            border-radius   : 23px;
+            border          : none;
+            margin-top      : 10px;
+            cursor          : pointer;
+        }
+     .form-group {
+            margin-bottom: 15px;
+        }
+    }
+}
+}

@@ -1,0 +1,67 @@
+
+.table_wrpr {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+.tbl_hdr_wrpr.df.acsa.fs12 {
+    background-color: #f8f8f8;
+}
+.tbl_hdr_wrpr p.tal.lw_clc_5 {
+    cursor: pointer;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.tal.lw_clc_5 {
+    width: 20%;
+    font-size: 12px!important;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 17px;
+}
+.outer_table {
+    max-height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.filter_inpt_sec {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.filter_inpt_sec input {
+    margin-right: 5px;
+}
+.acc_btn {
+    background-color: #001374;
+    border: 1px solid #001374;
+    color: #fff;
+    font-size: 14px;
+}
+.countNumber {
+    background-color: #fff;
+    color: #000;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.toggle_output {
+    position: absolute;
+    background-color: #fff;
+    padding: 20px 20px;
+    right: 0;
+    width: 210px;
+    box-shadow: 0 3px 20px #0000000d;
+    z-index: 9;
+}
+.toggle_btn {
+    position: relative;
+}
+.acc_btn:hover {
+    color: #fff;
+}

@@ -1,0 +1,404 @@
+.emailColumn {
+    border       : 1px solid #ddd;
+    border-radius: 7px;
+    overflow     : hidden;
+    min-height   : 150px;
+    position     : relative;
+    transition   : all 1s;
+    margin-bottom: 25px;
+
+    &:hover .action {
+        opacity: 1;
+    }
+
+    .email-box {
+        border-left: 5px solid #001374;
+        min-height : 150px;
+        padding    : 12px;
+
+        .emailLabel {
+            color        : #696969;
+            font-size    : 14px;
+            margin-bottom: 3px;
+
+            .timeBg {
+                background-color: #47E5EB;
+                color           : #fff;
+                padding         : 3px 10px;
+                border-radius   : 50px;
+                margin-left     : 3px;
+                font-size       : 12px;
+            }
+
+            .client_color {
+                background-color: #F6C343;
+            }
+        }
+
+
+        .clientName {
+            font-weight: 600;
+            font-size  : 0.9rem;
+        }
+
+        .emailTime {
+            padding      : 3px 10px;
+            border-radius: 50px;
+            font-size    : 14px;
+            display      : inline;
+
+            .emailBgGrey {
+                background-color: #e4e4e4;
+                padding         : 3px 10px;
+                border-radius   : 50px;
+                font-size       : 14px;
+                color           : #3e3e3e;
+            }
+        }
+
+        .timeBg {
+            background-color: #47E5EB;
+            color           : #fff;
+        }
+
+        .reportName {
+            font-size: 14px;
+        }
+
+        .clientCount {
+            font-size: 14px;
+        }
+    }
+
+    .action {
+        position     : absolute;
+        top          : 0px;
+        right        : 0px;
+        padding      : 10px 10px;
+        border-right : 0;
+        border-top   : 0;
+        border-radius: 0 0 0 5px;
+        opacity      : 0;
+        transition   : all 0.5s;
+
+        button {
+            border          : none;
+            padding         : 4px;
+            background-color: #001374;
+            font-size       : 12px;
+            max-width       : initial;
+
+            svg {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}
+
+
+.modal {
+    .modal-dialog {
+        max-width: 550px;
+    }
+
+    .modal-header {
+        .modal-title {
+            font-size  : 16px;
+            color      : #001374;
+            font-weight: 600;
+        }
+    }
+
+
+
+    .modal-body {
+        .emailLabel {
+            font-size: 14px;
+            color    : #888888;
+        }
+
+        .picker-input__text {
+            padding  : 4px !important;
+            border   : 1px solid #e4e4e4;
+            outline  : none;
+            font-size: 12.8px !important;
+            width    : 85px !important;
+        }
+
+        .range-picker-input__start,
+        .range-picker-input__end {
+            flex: 0 1 !important;
+        }
+
+        .select-option {
+            select {
+                width        : 100%;
+                padding      : 5px;
+                border-radius: 5px;
+                border       : 1px solid #E0E0E0;
+                font-size    : 14px;
+                color        : #444444;
+            }
+        }
+
+        .select-format {
+            select {
+                padding      : 5px;
+                border-radius: 5px;
+                border       : 1px solid #E0E0E0;
+                font-size    : 14px;
+                color        : #444444;
+            }
+        }
+
+        .outer-border {
+            padding      : 10px;
+            border       : 1px solid #ddd;
+            margin-top   : 20px;
+            border-radius: 6px;
+
+            .subject-fields,
+            .message-fields {
+                margin-bottom: 15px;
+
+                label {
+                    display  : block;
+                    font-size: 14px;
+                    color    : #888888;
+                }
+
+                input[type="text"],
+                textarea {
+                    border       : none;
+                    border-bottom: 1px solid #E0E0E0;
+                    border-radius: 0;
+                    width        : 100%;
+                    color        : #444444;
+                    font-size    : 14px;
+                }
+
+                input[type="text"]:focus-visible {
+                    border : none !important;
+                    outline: none;
+                }
+
+                textarea {
+                    border    : none;
+                    min-height: 100px;
+                }
+            }
+        }
+
+        .select-format {
+            .mail-label {
+                font-size   : 14px;
+                color       : #888888;
+                margin-right: 10px;
+            }
+        }
+
+        .email_outer_full {
+            margin       : 20px 0;
+            border       : 1px solid #ddd;
+            overflow     : hidden;
+            box-shadow   : none;
+            padding      : 10px;
+            border-radius: 5px;
+
+            .MuiPaper-root {
+                background      : none;
+                background-color: #ececec;
+                overflow        : hidden;
+                box-shadow      : none;
+            }
+
+            .MuiAccordionSummary-root {
+                min-height      : 40px;
+                background-color: #f3f3f3;
+
+                .MuiIconButton-root {
+                    padding: 1px;
+                }
+
+                .MuiAccordionSummary-content {
+                    margin: 10px 0;
+                }
+            }
+
+            .MuiCollapse-container.MuiCollapse-entered {
+                background-color: #f3f3f3;
+            }
+
+            .add_email_field {
+                width: 100%;
+
+                .add_email_content span {
+                    font-size   : 14px;
+                    margin-right: 8px;
+                }
+
+                .add_email_content {
+                    input {
+                        background   : none;
+                        border       : none;
+                        font-size    : 14px;
+                        border-bottom: 1px solid #888;
+                        border-radius: 0;
+                        width        : 100%;
+                    }
+
+                    .email_with_btn {
+                        width: calc(100% - 70px);
+                    }
+
+                    .custom_add_btn {
+                        margin-left: 6px;
+                    }
+                }
+
+            }
+
+            .email_List_field {
+                margin-top: 10px;
+
+                .list_email_span {
+                    border       : 1px solid #b7b7b7;
+                    padding      : 4px 5px 4px 10px;
+                    display      : inline-block;
+                    border-radius: 30px;
+                    font-size    : 14px;
+                    line-height  : 16px;
+                    margin-right : 5px;
+                    margin-bottom: 10px;
+
+                    .delete_item {
+                        margin-left     : 4px;
+                        background-color: #9c9c9c;
+                        width           : 20px;
+                        height          : 20px;
+                        border-radius   : 100%;
+                        display         : inline-block;
+                        padding         : 2px 6px;
+                        color           : #fff;
+                        font-size       : 12px;
+                        cursor          : pointer;
+                    }
+                }
+            }
+
+            .add_accor_outer {
+                margin-top: 10px;
+
+                .custom_add_btn {
+                    padding      : 2px 15px;
+                    color        : #47E5EB;
+                    border-radius: 23px;
+                    cursor       : pointer;
+                    border       : 2px solid #47E5EB;
+                }
+            }
+
+
+        }
+
+    }
+
+    .modal-footer {
+        .save-btn {
+            padding         : 7px 20px;
+            background-color: #47E5EB;
+            color           : #fff;
+            border-radius   : 23px;
+            border          : none;
+            cursor          : pointer;
+        }
+
+        .close-btn {
+            color: #47E5EB;
+        }
+
+    }
+
+}
+
+
+.dropdown-check-list {
+    display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+    position     : relative;
+    cursor       : pointer;
+    display      : inline-block;
+    padding      : 7px 11px 7px 3px;
+    border       : 1px solid #ccc;
+    font-size    : 14px;
+    text-align   : left;
+    border-radius: 5px;
+}
+
+.dropdown-check-list .anchor:after {
+    position   : absolute;
+    content    : "";
+    border-left: 2px solid black;
+    border-top : 2px solid black;
+    padding    : 2px;
+    right      : 5px;
+    top        : 14px;
+    transform  : rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+    right: 8px;
+    top  : 21%;
+}
+
+.dropdown-check-list ul.items {
+    padding         : 2px;
+    margin          : 0;
+    border          : 1px solid #ccc;
+    text-align      : left;
+    position        : absolute;
+    z-index         : 9;
+    background-color: #fff;
+}
+
+.dropdown-check-list ul.items li {
+    list-style: none;
+    margin    : 2px 4px;
+    font-size : 14px;
+}
+
+.dropdown-check-list.visible .anchor {
+    color: #0094ff;
+}
+
+.dropdown-check-list.visible .items {
+    display: block;
+}
+
+
+.Accordion_panel {
+    margin-bottom: 10px;
+
+    .Accordion_header {
+        .remove {
+            background   : none;
+            border       : none;
+            padding      : 0;
+            font-size    : 27px;
+            line-height  : 20px;
+            color        : #cf7568;
+            position     : absolute;
+            right        : 5px;
+            top          : 9px;
+            border-radius: 80px;
+        }
+
+        .MuiIconButton-root {
+            margin-right: 20px;
+        }
+    }
+}

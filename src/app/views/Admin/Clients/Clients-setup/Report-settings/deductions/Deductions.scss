@@ -1,0 +1,27 @@
+.ddctns_page {
+  padding: 26px 0px;
+  .ddctn_wrpr {
+    padding: 10px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    .chbx_sec_wrpr {
+      margin-left: 10px;
+    }
+
+    p {
+      margin-right: 10px;
+    }
+  }
+  .reportBtn {
+    color: #001374;
+    font-size: 12px;
+    border-color: #001374;
+    padding: 10px 23px;
+    border-radius: 8px;
+}
+.dd_wrpr {
+  width: calc(100% - 90px);
+}
+}

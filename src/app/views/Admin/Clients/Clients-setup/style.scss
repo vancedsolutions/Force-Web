@@ -1,0 +1,381 @@
+.rightSidebar {
+    position: fixed;
+    right: 0;
+    top: 94px;
+    background-color: #fff;
+    padding: 0px;
+    width: 655px;
+    transition: all 1s ease-in-out;
+    z-index: 999;
+    overflow-x: hidden;
+    box-shadow: 0 8px 18px 0 #1b27311a;
+
+    &.offSidebar {
+        right: -999px;
+    }
+
+    .overlay-pop {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: calc(100% - 655px);
+        background-color: 0 3px 20px #0000000d;
+    }
+
+    .top_header_popup {
+        padding: 10px 20px;
+        font-size: 14px;
+        background-color: #e7ecf3;
+        color: #001374 !important;
+        font-weight: 600;
+    }
+
+    .tabNav {
+        border-bottom: 1px solid #e0e0e0;
+        padding: 0 20px;
+        margin-bottom: 20px;
+
+        .react-tabs__tab-list {
+            border-bottom: none !important;
+            margin: 0 !important;
+            padding: 0;
+
+            .react-tabs__tab {
+                padding: 14px 14px !important;
+                color: #bbc5d5;
+                font-weight: normal;
+                font-weight: 600;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+            }
+
+            .react-tabs__tab--selected {
+                border-color: transparent !important;
+                border-bottom: 1px solid #132cde !important;
+                color: #001374 !important;
+            }
+        }
+
+        .iconRight {
+            cursor: pointer;
+
+            .reportBtn {
+                padding: 10px 20px;
+                background-color: #47e5eb;
+                color: #fff;
+                font-size: 14px;
+                border-radius: 23px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .tabContent {
+        padding: 10px 30px;
+        overflow-x: auto;
+        height: calc(100vh - 207px);
+
+        .tabPanel {
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+
+            .tabList {
+                background-color: #f5f5f5;
+                padding: 8px 10px;
+                border-radius: 8px;
+                flex-basis: 50%;
+                max-width: 275px;
+
+                .tabListTitle {
+                    h2 {
+                        font-size: 14px;
+                        margin: 0;
+                    }
+                }
+
+                .tabSwitch {
+                    label {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .reportList {
+            padding: 15px 0;
+            border-bottom: 1px solid #f5f5f5;
+
+            .reportListInner {
+                .reportTitle {
+                    h2,
+                    a {
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        color: #888888;
+                        margin: 0;
+                    }
+                }
+            }
+
+            &:last-child {
+                border: none;
+            }
+
+            .reportListAccording {
+                margin-top: 15px;
+
+                &.mar-0 {
+                    margin: 0;
+                }
+
+                .MuiPaper-root {
+                    font-size: 12px;
+                    box-shadow: none !important;
+                    margin-bottom: 10px;
+                    border: none !important;
+
+                    .MuiAccordionSummary-root {
+                        min-height: 40px;
+                        background-color: #f5f5f5;
+                        border-radius: 8px;
+
+                        .MuiAccordionSummary-content {
+                            margin: 10px 0;
+
+                            .titleAccording {
+                                font-size: 12px;
+                                color: #444444;
+
+                                a {
+                                    font-size: 12px;
+                                    color: #444444;
+                                    display: block;
+                                }
+                            }
+                        }
+
+                        .MuiIconButton-root {
+                            padding: 8px 12px;
+                        }
+                    }
+
+                    .MuiAccordionDetails-root {
+                        flex-direction: column;
+
+                        .reportIdField {
+                            margin-top: 10px;
+
+                            input[type="text"] {
+                                width: 100%;
+                                border-color: #e0e0e0;
+                                padding: 10px 10px;
+                                border-radius: 8px;
+                            }
+
+                            .selectBox {
+                                width: 450px;
+                                border-color: #e0e0e0;
+                                padding: 10px 10px;
+                                border-radius: 8px;
+                            }
+
+                            .reportBtn {
+                                color: #001374;
+                                font-size: 12px;
+                                border-color: #001374;
+                                padding: 10px 23px;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+                }
+
+                .flex-shrink {
+                    font-size: 12px;
+                }
+
+                button.primary.mini,
+                .button.primary.mini {
+                    font-size: 12px;
+                    padding: 6px 20px;
+                }
+
+                .cost_center_select {
+                    font-size: 12px;
+                }
+
+                .ec_setup_cntnt .list_wrpr .ec_sec,
+                .ec_setup_cntnt .list_wrpr .ec_ext,
+                .ec_setup_cntnt .list_wrpr .swp_sec,
+                .ec_setup_cntnt .list_wrpr .bp_sec {
+                    font-size: 12px;
+                }
+
+                .table td input {
+                    width: 80px;
+                }
+
+                .table th,
+                .table td {
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        .Switch_earning {
+            margin-left: 15px;
+        }
+
+        .userList {
+            .table thead th {
+                vertical-align: bottom;
+                border-bottom: none;
+                background-color: #f5f5f5;
+                font-size: 12px;
+                color: #888888;
+                font-weight: normal;
+            }
+
+            .table td {
+                color: #444444;
+                font-size: 12px;
+            }
+
+            .table th,
+            .table td {
+                border-top: none;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .userOnline {
+                width: 8px;
+                height: 8px;
+                background-color: #38e25e;
+                display: inline-block;
+                margin-right: 5px;
+                border-radius: 100px;
+            }
+
+            .userOffline {
+                width: 8px;
+                height: 8px;
+                background-color: #bbc5d5;
+                display: inline-block;
+                margin-right: 5px;
+                border-radius: 100px;
+            }
+        }
+    }
+
+    .SavedReports .input_line.ssD_fiels {
+        width: calc(100% - 85px);
+        input#rprt_inpt {
+            width: 100%;
+            border-color: #e0e0e0;
+            padding: 10px 10px;
+            border-radius: 8px;
+            height: 40px;
+        }
+    }
+    .margin-top-10 {
+        margin-top: 10px;
+    }
+    .RateConfig {
+        .type_wrpr {
+            margin-bottom: 20px;
+        }
+
+        .reportBtn {
+            margin-left: 10px;
+        }
+
+        .inpt_wrpr {
+            margin-right: 10px;
+
+            label {
+                margin: 0;
+            }
+
+            input[type="radio"] {
+                margin-left: 8px;
+            }
+        }
+
+        .rc_content {
+            .cc_name_wrpr {
+                .reportBtn {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .ExportEarning {
+        width: calc(100% - 90px);
+
+        input[type="text"] {
+            width: 100%;
+        }
+    }
+}
+
+.MuiAccordion-root:before {
+    content: none !important;
+}
+
+.reportList {
+    & > .MuiAccordion-root {
+        box-shadow: none;
+
+        & > .MuiAccordionSummary-root {
+            padding: 0;
+            margin: 0;
+        }
+
+        .MuiAccordionDetails-root {
+            flex-direction: column;
+        }
+    }
+
+    .reportTitle {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #888888;
+        margin: 0;
+        font-weight: normal;
+    }
+}
+.repordIDCS_wd {
+    width: 40%;
+}
+.repordIDCS {
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 40px;
+}
+.repordIDCS_wd_100 {
+    width: 100%;
+    margin-right: 15px;
+}
+
+.tabContent .footer {
+    text-align: right;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 200px;
+}
+
+footer span .btn {
+    border: 1px solid #eee;
+    background: #eee;
+    width: 128px;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}

@@ -1,0 +1,42 @@
+@import "../../../../../colors.scss";
+
+.__checkbox {
+  //   height: 16px;
+  //   width: 16px;
+  //   border: 1px solid$primary-dark;
+  //   border-radius: 3px;
+
+  .lbl {
+    display: block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid$primary-dark;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.2s;
+
+    &:after {
+      content: "";
+      height: 12px;
+      width: 5px;
+      border: 2px solid;
+      border-width: 0px 2px 2px 0px;
+      position: absolute;
+      top: calc(50% - 1px);
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(10deg);
+      border-color: transparent;
+      transition: all 0.2s;
+    }
+
+    &.checked {
+      background-color: $primary-theme-color;
+      border-color: $primary-theme-color;
+
+      &:after {
+        border-color: white;
+        transform: translate(-50%, -50%) rotate(46deg);
+      }
+    }
+  }
+}

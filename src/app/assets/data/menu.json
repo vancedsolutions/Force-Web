@@ -1,0 +1,185 @@
+[
+  {
+    "label": "dashboard",
+    "position": 0,
+    "url": "/dashboard",
+    "className": "dash",
+    "key": "DASHBOARD",
+    "openAccess": true,
+    "navIcon": "../images/menu.png"
+  },
+  {
+    "label": "reports",
+    "position": 1,
+    "url": "/reports",
+    "key": "REPORTS",
+    "className": "reports",
+    "navIcon": "../images/bar-chart.png",
+    "groupHeader": true,
+    "subItems": [
+      {
+        "label": "late payroll",
+        "key": "LATE_PAYROLL",
+        "hidden": true,
+        "url": "/reports/late-payroll",
+        "group": "REPORTS"
+      },
+      {
+        "label": "No Payroll Activity",
+        "key": "NO_PAYROLL_ACTIVITY",
+        "url": "/reports/no-payroll-activity",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Management Overview",
+        "key": "MANAGEMENT_OVERVIEW",
+        "url": "/reports/management-overview",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Billing Discrepancy",
+        "key": "BILLING_DISCREPANCY",
+        "url": "/reports/billing-discrepancy",
+        "group": "REPORTS"
+      },
+      {
+        "label": "CSR Assignments",
+        "key": "CSR_ASSIGNMENT",
+        "url": "/reports/csr-assignments",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Annual Billing",
+        "key": "ANNUAL_BILLING",
+        "url": "/reports/annual-billing",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Logs",
+        "key": "LOGS",
+        "url": "/reports/logs",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Wage Parity",
+        "key": "WAGE_PARITY",
+        "url": "/reports/wage-parity",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Certified Payroll",
+        "key": "CERTIFIED_PAYROLL",
+        "url": "/reports/certified-payroll",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Employee Accrual Totals",
+        "key": "EMPLOYEES_ACCRUALS",
+        "url": "/reports/accruals",
+        "group": "REPORTS"
+      },
+      {
+        "label": "Patient Hours",
+        "key": "PATIENT_HOURS",
+        "url": "/reports/patient-hours",
+        "group": "REPORTS"
+      }
+    ]
+  },
+  {
+    "label": "file conversions",
+    "position": 2,
+    "url": "/file-conversions",
+    "className": "docs",
+    "key": "FILE_CONVERSION",
+    "navIcon": "../images/folder.png",
+    "groupHeader": true
+  },
+  {
+    "label": "admin Setup",
+    "position": 3,
+    "url": "/admin",
+    "className": "admin_setup",
+    "key": "ADMIN_SETUP",
+    "navIcon": "../images/cogwheel.png",
+    "groupHeader": true,
+    "subItems": [
+      {
+        "label": "clients",
+        "key": "CLIENT_LIST",
+        "url": "/admin/clients",
+        "group": "ADMIN_SETUP"
+      },
+      {
+        "label": "wage rates",
+        "key": "WAGE_RATES",
+        "url": "/wage",
+        "group": "ADMIN_SETUP"
+      },
+      {
+        "label": "Users",
+        "url": "/admin/users",
+        "group": "ADMIN_SETUP",
+        "key": "USERS_LIST"
+      },
+      {
+        "label": "Role",
+        "key": "ADMIN_RBAC_ACCESS",
+        "url": "/admin/Role",
+        "group": "ADMIN_SETUP"
+      },
+      {
+        "label": "Time Inventory",
+        "url": "/time-inventory",
+        "group": "ADMIN_SETUP",
+        "key": "TIME_INVENTORY"
+      }
+    ]
+  },
+  {
+    "label": "Admin report settings",
+    "url": "/admin",
+    "className": "admin_setup",
+    "navIcon": "../images/cogwheel.png",
+    "groupHeader": true,
+    "key": "EDIT_SETTING_OR_PERMISSION",
+    "subItems": [
+      {
+        "label": "Annual billing by client",
+        "url": "/admin/annual-billing"
+      },
+      {
+        "label": "Management Overview",
+        "url": "/admin/management-billing"
+      },
+      {
+        "label": "Billing Discrepancy",
+        "url": "/admin/billing"
+      },
+      {
+        "label": "CSR Assignments",
+        "url": "/admin/csr-assignments"
+      }
+    ]
+  },
+  {
+    "label": "Team support history",
+    "position": 4,
+    "url": "/team-support-history",
+    "className": "docs",
+    "showSubs": false,
+    "navIcon": "../images/folder.png",
+    "groupHeader": true,
+    "key": "TEAM_SUPPORT"
+  },
+  {
+    "label": "Email Setup",
+    "position": 5,
+    "url": "/email-setup",
+    "className": "email-setup",
+    "showSubs": false,
+    "navIcon": "../images/mail_icon.png",
+    "groupHeader": true,
+    "key": "EMAIL_SETUP"
+  }
+]

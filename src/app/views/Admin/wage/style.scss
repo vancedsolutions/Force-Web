@@ -1,0 +1,33 @@
+.rates_list {
+    margin-bottom: 30px;
+}
+.add_rate { 
+    margin-top: 10px;
+    p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}
+
+.action {
+    button {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        max-width: 22px;
+        &:hover, &:focus {
+            background: none;
+            box-shadow: none;
+        }
+        &:not(:disabled):not(.disabled):active {
+            background: none;
+            box-shadow: none;}
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+.rates_list h4.heading_h4 {
+    margin-bottom: 20px;
+}

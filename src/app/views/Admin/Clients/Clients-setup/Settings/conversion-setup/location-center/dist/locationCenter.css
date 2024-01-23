@@ -1,0 +1,114 @@
+.cost_center_select {
+  margin-bottom: 40px;
+}
+.cost_center_select .css-2b097c-container {
+  margin-bottom: 20px;
+  max-width: 310px;
+}
+.cost_center_select .css-2b097c-container {
+  margin-top: 10px;
+}
+
+.listDiv span {
+  float: right;
+  padding: 13px;
+  font-size: 15px;
+}
+
+.cost_center_select .button-default {
+  font-size: 14px;
+  margin: 5px;
+  background-color: #001374;
+  border: 1px solid #001374;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.padd-20 {
+  padding: 20px;
+}
+
+.clients_list {
+  margin-top: 20px;
+}
+
+.location-cost.rate_setup_page .rates_list .list .rate_line {
+  height: 80px;
+  padding: 10px 10px;
+}
+
+.location-cost.rate_setup_page .rates_list .list .rate_line .sec {
+  height: 70px;
+}
+
+.costcenter-list-height {
+  height: calc(100% - 50px);
+  overflow: auto;
+}
+
+.pull-right {
+  float: right;
+}
+
+.cost_flex_box .flat_rate {
+  display: flex;
+  float: right;
+}
+
+.rate_setup_page.location-wage.popup-lacation .rates_list .list .rate_line {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.rate_setup_page.location-wage.popup-lacation .rates_list .list .rate_line .sec button.primary {
+  margin-left: 10px;
+}
+
+.admin_clients_page .filters_wrpr {
+  height: 74px;
+  align-items: center;
+}
+.admin_clients_page .clients_list {
+  overflow: auto;
+  max-height: calc(100% - 80px);
+  transform: translateX(8px);
+  box-shadow: 0px 2px 10px 0px rgba(27, 39, 49, 0.1);
+  border-radius: 3px;
+}
+.admin_clients_page .clients_list .list_wrpr .line {
+  height: 52px;
+  background-color: white;
+  padding: 0px 16px;
+  align-items: center;
+  border-bottom: 1px solid rgba(27, 39, 49, 0.1);
+  color: #1b2731;
+}
+.admin_clients_page .clients_list .list_wrpr .line .name {
+  width: 28%;
+}
+.admin_clients_page .clients_list .list_wrpr .line .name p {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+
+.popup-lacation .rates_list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.blank_location #blankValue {
+  border-color: #E0E0E0;
+  padding: 10px 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+.blank_location .roleSelect {
+  border-color: #E0E0E0;
+  padding: 10px 10px;
+  border-radius: 8px;
+  width: 100%;
+}

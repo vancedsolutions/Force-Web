@@ -1,0 +1,22 @@
+@import "../../../colors.scss";
+
+@keyframes spinLoader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.__loader {
+  //   background-color: red;
+  border: 8px solid;
+  border-radius: 50%;
+  border-color: $primary-theme-color
+    transparentize($color: $primary-theme-color, $amount: 0.75)
+    transparentize($color: $primary-theme-color, $amount: 0.75);
+  height: 70px;
+  width: 70px;
+  animation: spinLoader 1.75s 0s infinite forwards linear;
+}

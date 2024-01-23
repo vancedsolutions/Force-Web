@@ -1,0 +1,47 @@
+@import "../../../../colors.scss";
+
+.__switch_wrpr {
+  height: 26px;
+  width: 42px;
+  position: relative;
+
+  label {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 1px solid #bdbdbd;
+    cursor: pointer;
+    opacity: 1;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 13px;
+    background-color: #fafafa;
+
+    &.on {
+      background-color: #52D869;
+      border: none;
+      &:after {
+        transform: translate(0px, -50%);
+        left: calc(100% - 25px);
+      }
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 1px;
+      transform: translate(0px, -50%);
+      height: 24px;
+      width: 24px;
+      transition: all 0.2s;
+      box-shadow: 0px 2px 1px -1px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001f;
+      border-radius: 50%;
+      background-color: #fafafa;
+
+      //       $primary-dark: #1b2731;
+      // $primary-theme-color: #2574b5;
+      // $primary-positive-color: #368645;
+    }
+  }
+}

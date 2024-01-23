@@ -1,0 +1,131 @@
+.BankUploadsView {
+    float: left;
+    width: 30%;
+}
+.TaxCollectionView {
+    float: left;
+    width: 30%;
+}
+
+.TaxPaymentsView {
+    float: left;
+    width: 30%;
+}
+
+.NewHireUploadView {
+    float: left;
+    width: 30%;
+}
+.DirectDepositUploadView {
+    float: left;
+    width: 30%;
+}
+.ConversationTools {
+    float: left;
+    width: 30%;
+}
+
+.mr-40 {
+    margin: 0 40px;
+}
+.ConversationToolsView {
+    margin-top: 30px;
+    .df.acc {
+        align-items: center;
+        justify-content: center;
+    }
+    .df {
+        display: flex;
+    }
+    .dn {
+        display: none;
+    }
+    .upld_lbl span {
+        display: block;
+    }
+    .format-type {
+        color: #bababa;
+    }
+    span.ffqs.fwsb.fs14.ttuc {
+        color: #444444;
+        font-weight: 500;
+    }
+    p.max-size-title {
+        color: #bababa;
+    }
+    .fwsb5 {
+        font-weight: 500;
+    }
+    .custom_btn {
+        border: none;
+        margin: 10px 0;
+        display: inline-block;
+        border-radius: 5px;
+        color: #fff;
+        padding: 8px 0;
+    }
+    .upld_lbl {
+        display: block;
+        padding: 60px 20px 40px 20px;
+        cursor: pointer;
+        background-color: #fff;
+        width: 100%;
+        border: 2px dashed #e0e0e0;
+        border-radius: 14px;
+        transition: all 0.25s;
+        text-align: center;
+        label {
+            cursor: pointer;
+        }
+    }
+}
+.uploadIcon {
+    margin-bottom: 25px;
+}
+.conversation_tools_page {
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+.title-field {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 991px) {
+    .BankUploadsView,
+    .TaxCollectionView,
+    .TaxPaymentsView,
+    .NewHireUploadView,
+    .DirectDepositUploadView,
+    .ConversationTools {
+        width: calc(50% - 40px);
+        margin: 0 10px;
+    }
+    .short_wrapper {
+        .BankUploadsView,
+        .TaxCollectionView,
+        .TaxPaymentsView,
+        .NewHireUploadView,
+        .DirectDepositUploadView,
+        .ConversationTools {
+            float: none;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .BankUploadsView,
+    .TaxCollectionView,
+    .TaxPaymentsView,
+    .DirectDepositUploadView,
+    .NewHireUploadView,
+    .ConversationTools {
+        width: calc(100%);
+        margin: 0 10px;
+    }
+}
